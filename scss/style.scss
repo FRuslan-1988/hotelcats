@@ -2,7 +2,20 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+html {
+    background-color: #E5E5E5;
+}
+body {
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
 @import 'var';
 @import 'header';
+@import 'helper';
+@import 'navlogo';
+@import 'button';
+@import 'intro';

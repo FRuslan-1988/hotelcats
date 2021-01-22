@@ -1,0 +1,15 @@
+.logo {
+    width: 63px;
+    height: 52px;
+    margin-left: 15px;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 15px;
+    &__link{
+        margin-left: 30px;
+        text-decoration: none;
+        color: $text;
+    }
+}

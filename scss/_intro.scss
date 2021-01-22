@@ -1,0 +1,33 @@
+.intro {
+    position: relative;
+    background: url(/images/backgrounds/intro.jpg) 0 0/cover no-repeat;
+    height: 500px;
+    padding-top: 150px;
+
+    &__info {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 200px;
+    }
+
+    &__city {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 16,8px;
+    }
+    &__title {
+        font-size: 62px;
+        line-height: 73,47px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    
+    &__subtitle {
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    &__btn {
+        background-color: $white;
+    }
+}
